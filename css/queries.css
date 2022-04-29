@@ -1,0 +1,93 @@
+@media (max-width: 83.2em) {
+  .how-to {
+    max-width: 70%;
+  }
+}
+@media (max-width: 60em) {
+  html {
+    font-size: 50%;
+  }
+  .current {
+    padding: 1.5rem 4.5rem;
+  }
+  .how-to {
+    max-width: 75%;
+  }
+}
+@media (max-width: 44em) {
+  html {
+    font-size: 45%;
+  }
+  .game-main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .game {
+    width: 100%;
+    padding: 8rem 0;
+  }
+  /* ########################### */
+  /* border radius fix */
+  .game--0 {
+    border-top-right-radius: 1.5rem;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .game--1 {
+    border-top-left-radius: 1.5rem;
+    border-bottom-right-radius: 0;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  /* ############################### */
+  /* flip player 2 */
+  .rotate {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  /* ############################### */
+  .btn-how {
+    top: 2%;
+  }
+  .btn-new {
+    top: 29%;
+    font-size: 2.3rem;
+  }
+  .btn-roll {
+    bottom: 29%;
+    gap: 0.5rem;
+    font-size: 2.3rem;
+  }
+  .btn-hold {
+    bottom: 1.9%;
+    gap: 0.5rem;
+  }
+  .dice {
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .blur {
+    -webkit-filter: blur(0.3rem);
+    filter: blur(0.3rem);
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .how-to {
+    max-width: 100%;
+    margin: 0 2rem;
+    padding: 8.5rem 4rem;
+  }
+}

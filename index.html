@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dice roll &mdash; The Game</title>
+    <meta property="og:image" content="img/main.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://roll-dice-game-luka.netlify.app/" />
+    <meta property="og:title" content="Roll The Dice" />
+    <meta property="og:description" content="This game will have you mindblown." />
+    <link rel="manifest" href="/manifest/manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="img/logo.png" />
+    <link rel="icon" href="img/logo.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+  </head>
+  <body>
+    <div class="how-to">
+      <p class="how-to--text">
+        On a turn, a player rolls the dice 🎲 repeatedly. The goal is to accumulate as many points as possible, adding up (hold) the numbers rolled on
+        the dice 🎲. However, if a player rolls a 1, the player's turn is over and any points they have accumulated during this turn are forfeited.
+        Rolling a 1 doesn't wipe out your entire score from previous turns, just the total earned during that particular roll. A player has to choose
+        to hold (stop rolling the dice 🎲) if they do not want to take a chance of rolling a 1 and losing all of their points from this turn. If the
+        player chooses to hold, all of the points rolled during that turn are added to his or her score. When a player reaches a total of 100 points,
+        the game ends and that player is the winner.
+      </p>
+      <ion-icon name="close-outline" class="close-tutorial"></ion-icon>
+    </div>
+    <main class="game-main">
+      <section class="game game--0 active-player">
+        <div class="player player--0">
+          <p class="paragraph player">Player 1</p>
+          <p class="score score__hold--0">1</p>
+          <div class="current">
+            <p class="paragraph hold">Current</p>
+            <p class="points score__roll_0">0</p>
+          </div>
+        </div>
+      </section>
+      <section class="game game--1">
+        <div class="player player--0">
+          <p class="paragraph player rotate">Player 2</p>
+          <p class="score score__hold--1 rotate">1</p>
+          <div class="current rotate">
+            <p class="paragraph hold">Current</p>
+            <p class="points score__roll_1">0</p>
+          </div>
+        </div>
+      </section>
+      <button class="btn btn-how"><ion-icon name="help-outline"></ion-icon>HOW TO PLAY</button>
+      <button class="btn btn-new"><ion-icon name="refresh-outline"></ion-icon>NEW GAME</button>
+      <button class="btn btn-roll"><ion-icon name="dice-outline"></ion-icon>ROLL DICE</button>
+      <button class="btn btn-hold"><ion-icon name="hand-right-outline"></ion-icon>HOLD</button>
+      <img src="/img/dice-3.png" alt="random dice" class="dice hidden" />
+    </main>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
