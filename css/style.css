@@ -27,6 +27,7 @@ body {
   background-image: -webkit-gradient(linear, right bottom, left top, from(#753682), to(#bf2e34));
   background-image: -o-linear-gradient(bottom right, #753682 0%, #bf2e34 100%);
   background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+  overflow-y: auto;
 }
 /* main game stuff */
 .game-main {
