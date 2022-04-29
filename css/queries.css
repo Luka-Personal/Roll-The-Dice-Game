@@ -90,4 +90,9 @@
     margin: 0 2rem;
     padding: 8.5rem 4rem;
   }
+  /* BG FIX */
+  body {
+    background-image: none;
+    background-color: #bf2e34;
+  }
 }
