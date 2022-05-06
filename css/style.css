@@ -23,7 +23,7 @@ body {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
   background-image: -webkit-gradient(linear, right bottom, left top, from(#753682), to(#bf2e34));
   background-image: -o-linear-gradient(bottom right, #753682 0%, #bf2e34 100%);
   background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
