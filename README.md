@@ -5,7 +5,7 @@ be careful to not get dice 1, or you score will reset :))
 
 P.S my js is better each day
 
-Date Finished 4/28/2022 - Слава Украине!
+Date Finished 4/28/2022 - Слава Україні!
 
 Created by - Luka Tsinaridze, Languages used - Vanilla Javascript, HTML, CSS
 
